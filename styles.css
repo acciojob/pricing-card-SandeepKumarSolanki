@@ -1,1 +1,71 @@
-/*  your css code here. If applicable */
+body{
+	font-family : Arial , sans-serif;
+	display : flex;
+	justify-content : center;
+	align-items : center;
+	height : 100vh;
+	margin : 0;
+	background-color : #f4f4f4;
+}
+
+.pricing-card {
+	width : 300px;
+	padding : 20px;
+	background-color : white;
+	box-shadow : 0px 4px 8px rgba(0 , 0 , 0 , 0.1);
+	border-radius : 10px;
+	text-align : center;
+	transition : box-shadow 0.3s ease-in-out;
+}
+
+/* Card image styling */
+.card-image {
+	font-size : 24px ; 
+	font-weight : bold ; 
+	color : #333;
+	margin-bottom : 10px;
+}
+
+/* Price styling */
+.price{
+	font-size : 22px;
+	color : #27ae60;
+	font-weight : bold;
+	margin-bottom : 15px;
+}
+
+.description {
+	font-size : 16px;
+	color : #777;
+	margin-bottom : 20px;
+}
+
+.buy-now{
+	padding : 10px 20px;
+	background-color : #3498db;
+	color : white;
+	font-size : 16px;
+	border : none;
+	border-radius : 15px;
+	cursor : pointer;
+	transition : background-color 0.3s ease;
+}
+
+/* Hover effect for the Buy Now button */
+.buy-now: hover{
+	background-color : #2980b9;
+}
+
+.pricing-card : hover{
+	box-shadow : 0px 8px 16px rgba(0 , 0 , 0 , 0.2);
+}
+
+
+
+
+
+
+
+
+
+
